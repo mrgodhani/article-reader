@@ -10,8 +10,7 @@ You need to install [Atom/Electron](https://github.com/atom/electron) first, the
 ```
 npm install   // install dependencies
 
-gulp build
-gulp release   // package app, will create app in release directory.
+npm run release   // package app, will create app in release directory.
 
 npm start      // after you build it
 ```
