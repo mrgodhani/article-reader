@@ -13,7 +13,15 @@ npm install   // install dependencies
 npm run release   // package app, will create app in release directory.
 
 npm start      // To start app (without releasing as package)
+
 ```
+
+## Features
+
+- [x] Offline reading
+- [x] Tagging Articles
+- [x] Search Articles
+- [x] Search Articles by tags
 
 ## ScreenShot
 
