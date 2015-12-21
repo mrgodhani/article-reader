@@ -100,7 +100,7 @@ export default {
           text : this.state.text,
           _id : this.state._id
         }
-        var data = _.where(store.state.articles, { 'tags' : [obj] })
+        var data = _.where(store.state.articles, { 'tags' : this.state !== 'untagged' ? [obj] : null })
         return data
       }
       return store.state.articles
@@ -120,6 +120,10 @@ export default {
     }
   },
   methods:{
+    setUntagged(){
+      this.title = "Untagged articles"
+      this.state = "untagged"
+    },
     setTag(item){
       this.title = item.text
       this.state = item

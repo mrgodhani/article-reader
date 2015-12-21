@@ -12,7 +12,7 @@ npm install   // install dependencies
 
 npm run release   // package app, will create app in release directory.
 
-npm start      // after you build it
+npm start      // To start app (without releasing as package)
 ```
 
 ## ScreenShot
