@@ -23,6 +23,6 @@ npm start      // To start app (without releasing as package)
 - [x] Search Articles
 - [x] Search Articles by tags
 
-## ScreenShot
+## Screenshot
 
 ![img](./image/screenshot.png)
