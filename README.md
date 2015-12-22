@@ -22,6 +22,7 @@ npm start      // To start app (without releasing as package)
 - [x] Tagging Articles
 - [x] Search Articles
 - [x] Search Articles by tags
+- [] Subscribing to RSS Feeds
 
 ## Screenshot
 
